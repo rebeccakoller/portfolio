@@ -39,6 +39,19 @@ background-color: #A1F7CD;
 
 }
 
+      /* Link Style 1 */
+.linked a {
+    border-bottom: .05em solid #b4e7f8;
+    box-shadow: inset 0 -0.05em 0 #b4e7f8;
+    color: inherit;
+    transition: background-color .25s cubic-bezier(.33, .66, .66, 1);
+		text-decoration: none;
+}
+
+.linked a:hover, .linked a:focus, .linked a:active {
+    background-color: #b4e7f8;
+}
+
 
     </style>
 </head>
@@ -46,6 +59,6 @@ background-color: #A1F7CD;
 <div class="content">
 <h1>Rebecca Koller</h1>
 <h3>Hi, I’m Rebecca, I want to help you create a strong brand that <em>works</em>. </h3>
-<p> As a multi-disciplinary designer and strategist, I care deeply about ensuring that brands, messaging, and websites are impactful, compelling, and fully accessible. </p>
+<p class="linked"> As a multi-disciplinary designer and strategist, I care deeply about ensuring that brands, messaging, and websites are impactful, compelling, and fully accessible. While my website is in progress, you can view samples of my work on <a href="https://www.behance.net/RebeccaKoller">Behance</a></p>
 </div>
 </body>
